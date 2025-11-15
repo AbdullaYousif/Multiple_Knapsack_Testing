@@ -13,3 +13,19 @@ number of knapsacks
 capacity constraints
 weight-value correlation
 
+
+
+ py -3.11 -m venv .venv
+ .\.venv\Scripts\activate
+ python -m pip install --upgrade pip
+ pip install -r requirements.txt
+
+
+
+ coverage:
+
+ coverage run --branch pairwise_generation.py
+ coverage report -m
+ coverage html
+ start htmlcov/index.html
+

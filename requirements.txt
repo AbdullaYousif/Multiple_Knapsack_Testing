@@ -4,3 +4,4 @@ allpairspy>=0.4.0
 mutmut>=2.1.0
 testflows
 ortools
+testflows.combinatorics
