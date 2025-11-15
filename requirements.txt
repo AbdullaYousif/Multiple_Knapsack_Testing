@@ -1,0 +1,6 @@
+pytest>=7.0
+coverage>=7.0
+allpairspy>=0.4.0
+mutmut>=2.1.0
+testflows
+ortools
