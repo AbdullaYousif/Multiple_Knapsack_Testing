@@ -5,3 +5,4 @@ mutmut>=2.1.0
 testflows
 ortools
 testflows.combinatorics
+pytest-benchmark

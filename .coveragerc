@@ -1,6 +1,10 @@
-[run]
-branch = True
-source = .
+
 
 [report]
 show_missing = True
+
+[run]
+source = test_division, multiple_knapsack
+omit =
+    */site-packages/*
+    */python*/lib/*
